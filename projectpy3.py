@@ -126,7 +126,7 @@ def sendContact(to,mid):
     mes.text = None
     mes.contentType = 13
     mes.contentMetadata = {'mid': mid}
-    cl.sendMessage(mes)
+    client.sendMessage(mes)
 
 #==============================================================================#
 def restart_program():
